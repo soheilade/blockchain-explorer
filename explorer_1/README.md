@@ -15,7 +15,7 @@ grunt
 sudo npm install npm bower grunt-cli graceful-fs@4.1.5 minimatch@3.0.2 -g
 ```
 
-The explorer relies on the current gRPC rest APIs that are available. To run the explorer make sure that at least one validating peer is running. Please refer to documentation at http://hyperledger-fabric.readthedocs.io/en/latest/Setup/Network-setup/.
+The explorer relies on the current gRPC rest APIs that are available. To run the explorer make sure that at least one validating peer is running. Please refer to documentation at https://hyperledger-fabric.readthedocs.io/en/latest/Setup/Network-setup.html.
 
 Retrieve the REST URL from peer setup and select a port for webserver. 9090 is default http port the http server listens for requests specified by environment variable 9090. http://127.0.0.1:7050 is the default REST end point for hyperledger REST requests. The REST requests currently used are `/chain`, `/network/peers` and `/chain/blocks/:blockNum`.
 
